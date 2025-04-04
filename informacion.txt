@@ -1,0 +1,9 @@
+npm i express mongodb http-errors dotenv debug excel4node
+npm i -D nodemon
+
+en package.json:
+"scripts": {
+    "dev":"nodemon index.js"
+  },
+
+npm run dev (para iniciar servidor con el script)
