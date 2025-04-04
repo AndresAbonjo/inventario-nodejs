@@ -4,6 +4,7 @@ const debug = require("debug")("app:module-users-controller");
 const { SalesService } = require("./services");
 const { Response } = require("../common/response");
 
+
 module.exports.SalesController = {
   getSales: async (req, res) => {
     try {
